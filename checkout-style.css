@@ -1,0 +1,66 @@
+﻿
+.inputbtn{
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 1.4rem;
+    line-height: 1.125rem;
+    padding: 0.7em 0.8em;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #ddc8a8;
+    border: 2px solid #5e442e;
+  margin-top: 1rem;
+  border-radius:4px
+}
+body{
+  background-color:#ddc8a8!important
+}
+.col-md-12 h4{
+  margin:20px 0;
+  font-weight:600
+}
+.btn_checkout{
+  margin:20px 0;
+  background:#5e442e;
+  border:1px solid black;
+  border-radius:4px;
+  font-size:1.5rem;
+  font-weight: 600;
+    color: #ddc8a8;
+    transition: all .3s;
+    padding: 15px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.btn_checkout:before{
+    content: "";
+    border: 1px solid #ddc8a8;
+  border-radius: 15px;
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 20px);
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+.container {
+  text-align:center;
+  border:1px solid
+}}
+.date-form{
+  height:34px;
+  padding: 6px 12px;
+  font-size:1.4rem;
+  cursor: pointer;
+    background-color: #ddc8a8;
+    border: 2px solid #5e442e;
+    border-radius:4px;
+  text-align:center;
+}

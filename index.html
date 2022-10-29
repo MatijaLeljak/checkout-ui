@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Checkout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="checkout-style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>  
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+ <script src ="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script> 
+<script>  
+$(function() {  
+  $('#datetimepicker1').datetimepicker({  
+         minDate:new Date(),
+         format: 'DD-MM-YY HH:mm'}                              ); 
+});  
+</script>  
+<link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+<link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">  
+  
+  <head>
+<div id="custom-container" class="container">
+  <div class="row">
+  <div class="col-md-12"><h2>Košarica</h2></div>
+    <div class="col-md-12"><h3>Ukupan iznos: 120,00 Kn</h3></div>
+  </div>
+  <div class="row">
+  <div class="col-md-12"><h4>Osobni podaci</h4></div>
+  <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true" data-val-required="Molimo unesite ime i prezime" id="Name" name="Name" placeholder="Ime i prezime" type="text" value="" aria-describedby="Name-error" aria-invalid="true">
+    </div>
+  <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true"  placeholder="E-mail" type="text" value="">
+  </div>
+  <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true"  placeholder="Broj telefona/mobitela" type="text" value="">
+  </div>
+  <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true" placeholder="Napomena" type="text" value="">
+  </div></div>
+  <div class="row">
+  <div class="col-md-12"><h4>Adresa dostave</h4></div>
+    <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true"  placeholder="Ulica i kućni broj" type="text" value="">
+    </div>
+    <div class="col-md-12 col-sm-12">
+    <input class="inputbtn col-md-4 col-sm-4" data-val="true"  placeholder="Poštanski broj" type="text" value="">
+    </div>
+    <div class="col-md-12 col-sm-12">
+    
+      <input class="inputbtn col-md-4 col-sm-4" data-val="true"  placeholder="Grad / mjesto" type="text" value="">
+    </div>
+</div>
+  <div class="row">
+  <div class="col-md-12"><h4>Datum i vrijeme dostave</h4></div>
+    <div class="col-md-12 col-sm-12">
+    <input type = 'text' class = "col-sm-4 col-md-4 date-form" id = 'datetimepicker1' />
+    </div>
+    </div>
+  <button type="button" class="btn_checkout">Potvrdi narudžbu</button
+    </div>
+  </head>
+  </html>
